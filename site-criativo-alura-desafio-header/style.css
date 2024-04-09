@@ -1,13 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body {
-    font-family: 'Poppins', sans-serif;
-}
+
 .cabecalho {
-    background-color: #424E61;
-    color: white;
+    background-color: #120f3f;
+    color: rgb(189, 190, 212);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,27 +13,23 @@ body {
 }
 
 .cabecalho-imagem{
-    width: 10%;
+    width: 15%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 16px;
-}
-
-.cabecalho-lista-item a{
-    text-decoration: none; 
-    color: white;
+    font-size: 20px;
 }
 
 .escola-imagem{
     width: 25%;
 }
 
-#escola{
-    background-image: linear-gradient(#424E61,#16CFF8);
-    color:white;
+.escola{
+    background-image: linear-gradient(#0a1b35,#263296);
+    color:rgb(189, 190, 212)
+    ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,48 +39,22 @@ body {
 .escola-div-conteudo{
     width: 35%;
 }
-
-
 .escola-titulo{
     padding: 24px 0;
 }
-
-#estudante{
-    padding: 24px 0;
+body{.whisper-regular {font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;}
 }
-
-
-.estudante-imagem{
-    width: 120px;
-}
-
-.estudante-icone{
-    width: 24px;
-    padding: 4px 8px;
-}
-
-.estudante-div{
-    text-align: center;
-    padding: 16px 0;
-}
-
-.estudante-titulo{
-    text-align: center;
-    padding: 50px 0;
-}
-
 .estudante-todos{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 10% 10% 10% 10% 10%;
 }
-
 .rodape{
-    background-color: black;
+    background-color: rgba(22, 12, 68, 0.199);
     text-align: center;
 }
-
 .rodape-imagem{
     height: 60px;
     padding: 12px 0;
-   
 }
